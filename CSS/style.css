@@ -3,6 +3,7 @@
 body{
     font-family: sans-serif;
     height: 4000px;
+    color: white;
 }
 
 .container{
@@ -21,39 +22,39 @@ body{
 }
 
 /**************************************/
-#slider header{
+header{
     overflow: hidden;
 }
 
-#slider header #logo{
+header #logo{
     float: left;
     margin-top: 10px;
 }
 
-#slider header #logo img{
+header #logo img{
     width: 200px;
     height: 60px;
 }
 
-#slider header nav{
+header nav{
     float: right;
 }
 
-#slider header nav ul{
+header nav ul{
     list-style: none;
 }
 
-#slider header nav ul li{
+header nav ul li{
     display: inline;
     padding: 30px 20px 10px 20px;
     border-radius: 0 0 5px 5px;
 }
 
-#slider header nav ul li:first-of-type , #slider header nav ul li:hover{
+header nav ul li:first-of-type , header nav ul li:hover{
     background-color: #74c7d5;
 }
 
-#slider header nav ul li a{
+header nav ul li a{
     text-decoration: none;
     color: white;
 }
@@ -91,3 +92,89 @@ body{
 #slider #buttonsBlock .buttons:first-of-type , #slider #buttonsBlock .buttons:hover{
     background-color: #85c2d4;
 }
+
+
+/************************************************************************/
+/************************** services ************************************/
+#services{
+    height: 900px;
+    background-color: #BF4C53;
+}
+
+/**************************************/
+#services header nav ul li:first-of-type , #services header nav ul li:hover{
+    background-color: #dd5d61;
+}
+
+/**************************************/
+#services #servicesDetails{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#services #servicesDetails h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#services #servicesDetails h3{
+    font-weight: 100;
+}
+
+#services #servicesDetails p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/**************************************/
+#services #servicesTypes{
+    margin-top: 70px;
+}
+
+#services #servicesTypes .servicesBlock{
+    width: 23%;
+    height: 380px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    background-color: #dd5d61;
+    border-radius: 5%;
+}
+
+#services #servicesTypes .servicesBlock img{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#services #servicesTypes .servicesBlock h1{
+    font-weight: 100;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 30px auto;
+}
+
+#services #servicesTypes .servicesBlock p{
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
