@@ -1,3 +1,93 @@
 /************************************************************************/
 /************************************************************************/
-body{}
+body{
+    font-family: sans-serif;
+    height: 4000px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/************************************************************************/
+/*************************** slider *************************************/
+#slider{
+    height: 700px;
+    background-image: url(../Images/slider.jpg);
+    background-size: cover;
+    background-color: #bac1af;
+    background-blend-mode: multiply;
+}
+
+/**************************************/
+#slider header{
+    overflow: hidden;
+}
+
+#slider header #logo{
+    float: left;
+    margin-top: 10px;
+}
+
+#slider header #logo img{
+    width: 200px;
+    height: 60px;
+}
+
+#slider header nav{
+    float: right;
+}
+
+#slider header nav ul{
+    list-style: none;
+}
+
+#slider header nav ul li{
+    display: inline;
+    padding: 30px 20px 10px 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+#slider header nav ul li:first-of-type , #slider header nav ul li:hover{
+    background-color: #74c7d5;
+}
+
+#slider header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/**************************************/
+#slider .sliderText{
+    margin-top: 180px;
+}
+
+#slider .sliderText img{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+/**************************************/
+#slider #buttonsBlock{
+    margin-top: 200px;
+    display: inline-block;
+    width: 10%;
+    margin-left: 45%;
+}
+
+#slider #buttonsBlock .buttons{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e1ded9;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#slider #buttonsBlock .buttons:first-of-type , #slider #buttonsBlock .buttons:hover{
+    background-color: #85c2d4;
+}
