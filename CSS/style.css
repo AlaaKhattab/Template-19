@@ -110,16 +110,17 @@ header nav ul li a{
 #services #servicesDetails{
     text-align: center;
     margin-top: 100px;
-    text-transform: uppercase;
 }
 
 #services #servicesDetails h1{
     font-size: 50px;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 #services #servicesDetails h3{
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 #services #servicesDetails p{
@@ -161,20 +162,122 @@ header nav ul li a{
 
 
 
+/************************************************************************/
+/************************** definition **********************************/
+#definition{
+    height: 800px;
+    background-color: #6A5868;
+}
+
+/**************************************/
+#definition header nav ul li:first-of-type , #definition header nav ul li:hover{
+    background-color: #8D788B;
+}
+
+/**************************************/
+#definition #definitionDetails{
+    text-align: center;
+}
+
+#definition #definitionDetails h1{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#definition #definitionDetails p#comment{
+    /*
+    background-image: url(../Images/comment.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    */
+    background-color: #a2c96c;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px auto;
+    padding-top: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
 
 
+/**************************************/
+#definition #teamMember{}
+
+#definition #teamMember .teamMemberBlock{
+    width: 23%;
+    margin: 1%;
+    height: 350px;
+    float: left;
+    text-align: center;
+    background-color: #594956;
+    border-radius: 5%;
+}
+
+#definition #teamMember .teamMemberBlock img{
+    width: 130px;
+    height: 130px;
+    margin: 30px 0 10px 0;
+    border: 5px solid #8D788B;
+    border-radius: 50%;
+}
+
+#definition #teamMember .teamMemberBlock h3{
+    text-transform: uppercase;
+}
+
+#definition #teamMember .teamMemberBlock p{
+    color: #a2c96c;
+}
+
+#definition #teamMember .teamMemberBlock .memberContacts{
+    margin-top: 30px;
+}
+
+#definition #teamMember .teamMemberBlock .memberContacts a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #a6869e;
+    border-radius: 50%;
+    padding: 5px 2px 2px 2px;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
 
 
+#definition #teamMember .teamMemberBlock:hover>img{
+    border: 5px solid #df5c64;
+}
+
+#definition #teamMember .teamMemberBlock:hover>p{
+    color: #df5c64;
+}
+
+#definition #teamMember .teamMemberBlock:hover>div a{
+    
+}
+
+#definition #teamMember .teamMemberBlock:hover>div .fa-facebook{
+    background-color: #49689f;
+}
+
+#definition #teamMember .teamMemberBlock:hover>div .fa-twitter{
+    background-color: #72ccd5;
+}
 
 
+#definition #teamMember .teamMemberBlock:hover>div .fa-google-plus{
+    background-color: #d06261;
+}
 
 
-
-
-
-
-
-
+#definition #teamMember .teamMemberBlock:hover>div .fa-linkedin{
+    background-color: #3c61b2;
+}
 
 
 
