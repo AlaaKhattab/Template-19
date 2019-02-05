@@ -2,7 +2,7 @@
 /************************************************************************/
 body{
     font-family: sans-serif;
-    height: 4000px;
+    height: 4500px;
     color: white;
 }
 
@@ -396,6 +396,148 @@ header nav ul li a{
     color: #919191;
     text-transform: uppercase;
 }
+
+
+/************************************************************************/
+/*************************** contact ************************************/
+#contact{
+    height: 650px;
+    background-color: #75b4ab;
+}
+
+
+/**************************************/
+#contact header nav ul li:first-of-type , #contact header nav ul li:hover{
+    background-color: #82c8bd;
+}
+
+/**************************************/
+#contact #contactHeader{
+    text-align: center;
+}
+#contact #contactHeader h1{
+    text-transform: uppercase;
+}
+#contact #contactHeaderp{}
+
+/**************************************/
+#contact #contactDetails{
+    margin-top: 50px;
+}
+
+/********************/
+#contact #contactDetails #adress{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+#contact #contactDetails #adress h2{}
+
+#contact #contactDetails #adress #adressDetails{
+    float: left;
+    width: 48%;
+    }
+
+#contact #contactDetails #adress #adressDetails h3{
+    margin-bottom: -10px;
+}
+#contact #contactDetails #adress #adressDetails h4{
+    margin-bottom: -15px;
+}
+#contact #contactDetails #adress #adressDetails form{
+    margin-top: 50px;
+}
+
+#contact #contactDetails #adress #adressDetails form label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#contact #contactDetails #adress #adressDetails form label.contactTitle{
+    width: 22%;
+    margin-right: 5%;
+}
+#contact #contactDetails #adress #adressDetails form label.contactData{
+    width: 58%;
+}
+
+/******/
+#contact #contactDetails #adress #adressMap{
+    float: left;
+    width: 52%;
+    height: 220px;
+}
+#contact #contactDetails #adress #adressMap img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+/********************/
+#contact #contactDetails #question{
+    float: left;
+    width: 48%;
+}
+#contact #contactDetails #question h2{}
+#contact #contactDetails #question form{
+    width: 100%;
+}
+#contact #contactDetails #question form input{
+    width: 46%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+#contact #contactDetails #question form input::placeholder , #contact #contactDetails #question form textarea::placeholder{
+    color: #75b4ab;
+}
+
+#contact #contactDetails #question form textarea{
+    width: 96%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+#contact #contactDetails #question form input[type="button"]{
+    margin: 20px 30%;
+    padding: 10px;
+    background-color: #df5c64;
+    color: #fbe9ea;
+    text-transform: uppercase;
+    font-size: 26px;
+    width: 40%;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
