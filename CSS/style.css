@@ -341,7 +341,7 @@ header nav ul li a{
     padding: 10px;
 }
 
-#work #portfolioHeader nav ul li a:hover{
+#work #portfolioHeader nav ul li a:hover , #work #portfolioHeader nav ul li:first-of-type>a{
     background-color: #f1c04a;
 }
 
@@ -362,7 +362,7 @@ header nav ul li a{
     position: relative;
 }
 
-#work #portfolioDetails .portfolioPics:hover{
+#work #portfolioDetails .portfolioPics:hover , #work #portfolioDetails .portfolioPics:first-of-type{
     background-color: darkgrey;
     background-blend-mode: multiply;
 }
@@ -378,7 +378,7 @@ header nav ul li a{
     cursor: pointer;
 }
 
-#work #portfolioDetails .portfolioPics:hover>i{
+#work #portfolioDetails .portfolioPics:hover>i , #work #portfolioDetails .portfolioPics:first-of-type>i{
     display: block;
     opacity: 1;
 }
