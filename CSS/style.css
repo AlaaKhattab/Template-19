@@ -2,7 +2,6 @@
 /************************************************************************/
 body{
     font-family: sans-serif;
-    height: 4500px;
     color: white;
 }
 
@@ -519,24 +518,24 @@ header nav ul li a{
 
 
 
+/************************************************************************/
+/**************************** footer ************************************/
+footer{
+    height: 150px;
+    background-color: #68a097;
+    text-align: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #75b4ab;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
 
 
 
