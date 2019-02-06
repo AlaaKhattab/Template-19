@@ -248,11 +248,11 @@ header nav ul li a{
 }
 
 
-#definition #teamMember .teamMemberBlock:hover>img{
+#definition #teamMember .teamMemberBlock:hover>img , #definition #teamMember .teamMemberBlock:first-of-type>img{
     border: 5px solid #df5c64;
 }
 
-#definition #teamMember .teamMemberBlock:hover>p{
+#definition #teamMember .teamMemberBlock:hover>p , #definition #teamMember .teamMemberBlock:first-of-type>p{
     color: #df5c64;
 }
 
@@ -260,21 +260,21 @@ header nav ul li a{
     
 }
 
-#definition #teamMember .teamMemberBlock:hover>div .fa-facebook{
+#definition #teamMember .teamMemberBlock:hover>div .fa-facebook , #definition #teamMember .teamMemberBlock:first-of-type>div .fa-facebook{
     background-color: #49689f;
 }
 
-#definition #teamMember .teamMemberBlock:hover>div .fa-twitter{
+#definition #teamMember .teamMemberBlock:hover>div .fa-twitter , #definition #teamMember .teamMemberBlock:first-of-type>div .fa-twitter{
     background-color: #72ccd5;
 }
 
 
-#definition #teamMember .teamMemberBlock:hover>div .fa-google-plus{
+#definition #teamMember .teamMemberBlock:hover>div .fa-google-plus , #definition #teamMember .teamMemberBlock:first-of-type>div .fa-google-plus{
     background-color: #d06261;
 }
 
 
-#definition #teamMember .teamMemberBlock:hover>div .fa-linkedin{
+#definition #teamMember .teamMemberBlock:hover>div .fa-linkedin , #definition #teamMember .teamMemberBlock:first-of-type>div .fa-linkedin{
     background-color: #3c61b2;
 }
 
