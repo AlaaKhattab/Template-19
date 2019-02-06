@@ -142,8 +142,13 @@ header nav ul li a{
     border-radius: 5%;
 }
 
-#services #servicesTypes .servicesBlock img{
+#services #servicesTypes .servicesBlock i{
+    color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 80px;
     margin-top: 40px;
+    padding: 20px 20px 10px 10px;
     width: 100px;
     height: 100px;
 }
